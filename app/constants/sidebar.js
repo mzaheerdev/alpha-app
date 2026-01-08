@@ -20,11 +20,13 @@ export const SIDEBAR_TABS = [
     id: "dashboard",
     label: "Dashboard",
     icon: PiSquaresFour,
+    route: "/dashboard",
   },
   {
     id: "transfers",
     label: "Transfers",
     icon: HiMiniArrowsRightLeft,
+    route: "/transfers",
     children: [
       {
         id: "addMoney",
@@ -56,37 +58,49 @@ export const SIDEBAR_TABS = [
     id: "cards",
     label: "Cards",
     icon: PiCreditCard,
+    route: "/cards",
   },
   {
     id: "invoices",
     label: "Invoices",
     icon: PiReceiptFill,
+    route: "/invoices",
   },
   {
     id: "savingPlans",
     label: "Saving Plans",
     icon: PiCoins,
+    route: "/saving-plans",
   },
   {
     id: "schedules",
     label: "Schedules",
     icon: PiCurrencyEth,
+    route: "/schedules",
   },
   {
     id: "calendar",
     label: "Calendar",
     icon: PiEnvelope,
+    route: "/calendar",
   },
   {
-    id: "widthdrawals",
-    label: "Widthdrawals",
+    id: "withdrawals",
+    label: "Withdrawals",
     icon: PiNewspaper,
+    route: "/withdrawals",
   },
-  
   {
     id: "helpSupport",
     label: "Help & Support",
     icon: PiSealPercent,
+    route: "/help",
   },
-  { id: "deposits", label: "Deposits", icon: PiSealPercent}
-] 
+  {
+    id: "deposits",
+    label: "Deposits",
+    icon: PiSealPercent,
+    route: "/deposits",
+  },
+];
+

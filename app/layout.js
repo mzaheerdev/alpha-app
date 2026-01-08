@@ -1,6 +1,7 @@
 import { Urbanist } from "next/font/google";
 import "./globals.css";
-
+import Sidebar from "./components/shared/sidebar";
+import Header from "./components/shared/header";
 
 const urbanist = Urbanist({
   variable: "--font-urbanist",
@@ -21,7 +22,15 @@ export default function RootLayout({ children }) {
         suppressHydrationWarning
         className={`${urbanist.variable}  antialiased`}
       >
-        {children}
+        <div className="flex font-urbanist min-h-screen w-full bg-primary">
+
+          <Sidebar />
+          
+          <div className="bg-white text-black w-full rounded-tl-3xl rounded-bl-3xl flex-1 py-5.5 px-7 gap-4">
+            <Header />
+            {children}
+          </div>
+        </div>
       </body>
     </html>
   );

@@ -1,12 +1,5 @@
-import Image from "next/image";
-import Sidebar from "./components/sidebar";
-import Main from "./components/main";
+import { redirect } from "next/navigation";
 
 export default function Home() {
-  return (
-    <div className="flex font-urbanist min-h-screen w-full bg-primary ">
-      <Sidebar /> 
-      <Main />
-    </div>
-  );
+  redirect("/dashboard");
 }
