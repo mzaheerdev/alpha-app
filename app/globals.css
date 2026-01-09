@@ -8,12 +8,17 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --font-urbanist: var(--font-urbanist);
   --color-primary: #00413d;
   --color-primary-light: #A0C8C8;
   --color-secondary: #BBF49C;
   --color-accent: #ECF4E9;
   --color-primary-ex-light: #E5E9EA;
-  --font-urbanist: var(--font-urbanist);
+  --color-green-bg: #ECF4E9;
+  --color-gray-20: #BCBEBD;
+  --color-destructive-light: #FDCED1;
+  --color-destructive: #F73541;
+  
 
 }
 

@@ -26,10 +26,10 @@ const Sidebar = () => {
   };
 
   return (
-    <aside className="w-48 min-h-screen bg-primary text-white p-4 gap-5 flex flex-col">
+    <aside className="w-48 fixed left-0 top-0 overflow-y-auto h-screen  bg-primary text-white p-4 gap-5 flex flex-col">
       <img src="/Header.png" alt="logo" className="ml-1" />
 
-      <ul className="space-y-3">
+      <ul className="flex flex-col gap-2">
         {SIDEBAR_TABS.map((tab) => {
           const { id, label, icon: Icon, children, route } = tab;
           const open = openTabs.includes(id);

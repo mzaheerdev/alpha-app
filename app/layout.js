@@ -2,6 +2,7 @@ import { Urbanist } from "next/font/google";
 import "./globals.css";
 import Sidebar from "./components/shared/sidebar";
 import Header from "./components/shared/header";
+import Footer from "./components/shared/footer";
 
 const urbanist = Urbanist({
   variable: "--font-urbanist",
@@ -26,9 +27,10 @@ export default function RootLayout({ children }) {
 
           <Sidebar />
           
-          <div className="bg-white text-black w-full rounded-tl-3xl rounded-bl-3xl flex-1 py-5.5 px-7 gap-4">
+          <div className="bg-white text-black w-full rounded-tl-3xl rounded-bl-3xl flex-1 py-5.5 px-7 gap-4 flex flex-col ml-48 ">
             <Header />
             {children}
+            <Footer />
           </div>
         </div>
       </body>

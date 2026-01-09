@@ -34,7 +34,7 @@ const Header = () => {
   const title = PAGE_TITLES[pathname] ?? "Dashboard";
 
   return (
-    <header className="h-9.5 flex items-center justify-between ">
+    <header className="sticky top-0 z-30 bg-white h-9.5 flex items-center justify-between ">
       {/* Left: Dynamic Page Title */}
       <h1 className="text-[22px] text-primary font-bold leading-[120%] ">
         {title}
