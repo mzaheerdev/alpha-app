@@ -1,11 +1,11 @@
 'use client';
 import React from "react";
-import SearchInput from "../ui/search-input";
+import SearchInput from "@/components/ui/search-input";
 import { usePathname } from "next/navigation";
 import { PiChatTeardropDots ,PiBellLight} from "react-icons/pi";
 
-import Button from "../ui/button";
-import Avatar from "../ui/avatar";
+import Button from "@/components/ui/button";
+import Avatar from "@/components/ui/avatar";
 
 
 const PAGE_TITLES = {

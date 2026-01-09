@@ -2,10 +2,10 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { SIDEBAR_TABS } from "../../constants/sidebar";
+import { SIDEBAR_TABS } from "@/constants/sidebar";
 import { useState } from "react";
 import { VscChevronDown, VscChevronUp } from "react-icons/vsc";
-import Button from "../ui/button";
+import Button from "@/components/ui/button";
 
 const Sidebar = () => {
   const pathname = usePathname();

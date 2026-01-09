@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
-import Card from "../ui/card";
+import Card from "@/components/ui/card";
 import { PiCaretDown } from "react-icons/pi";
-import Tabs from "../ui/tabs";
+import Tabs from "@/components/ui/tabs";
 
 export default function Statistics() {
   const [activeTab, setActiveTab] = useState("expense");

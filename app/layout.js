@@ -1,8 +1,8 @@
 import { Urbanist } from "next/font/google";
 import "./globals.css";
-import Sidebar from "./components/shared/sidebar";
-import Header from "./components/shared/header";
-import Footer from "./components/shared/footer";
+import Sidebar from "@/components/shared/sidebar";
+import Header from "@/components/shared/header";
+import Footer from "@/components/shared/footer";
 
 const urbanist = Urbanist({
   variable: "--font-urbanist",

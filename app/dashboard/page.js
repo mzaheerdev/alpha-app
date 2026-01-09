@@ -1,10 +1,10 @@
-import ProgressCard from "../components/ui/progress-card";
-import SavingPlans from "../components/dashboard/saving-plans";
-import Actions from "../components/dashboard/actions";
-import AtmCard from '../components/dashboard/atm-card';
-import ExpenseCards from "../components/dashboard/expense-cards";
-import Statistics from "../components/dashboard/statistics";
-import Card from "../components/ui/card";
+import ProgressCard from "@/components/ui/progress-card";
+import SavingPlans from "@/components/dashboard/saving-plans";
+import Actions from "@/components/dashboard/actions";
+import AtmCard from '@/components/dashboard/atm-card';
+import ExpenseCards from "@/components/dashboard/expense-cards";
+import Statistics from "@/components/dashboard/statistics";
+import Card from "@/components/ui/card";
 
 export default function Dashboard() {
  

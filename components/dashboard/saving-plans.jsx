@@ -1,8 +1,8 @@
-import Card from "../ui/card"
-import ProgressCard from "../ui/progress-card"
+import Card from "@/components/ui/card"
+import ProgressCard from "@/components/ui/progress-card"
 import { PiWarningLight, PiAirplaneTilt } from "react-icons/pi"
 import { RxPlus } from "react-icons/rx"
-import Button  from "../ui/button"
+import Button  from "@/components/ui/button"
 
 const emergencyFunds = [
   {
